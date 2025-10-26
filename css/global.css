@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.pages {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 1rem 5rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 1rem, 4px;
+  cursor: pointer;
+  border-radius: 100px;
+  font-size: 3rem;
+}
+
+.pages:hover {
+  background-color: darkgray;
+  color: white;
+}
+
+
+/* * {
+    box-sizing:border-box;
+}
+
+body, html {
+    margin:0;
+    padding:0;
+    background-color: #EDC9CA;
+    font-family: 'Chewy', sans-serif;
+
+}
+
+header {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:0rem;
+    position:relative;
+    background-color: #EDC9CA;
+    font-family: 'Chewy', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+ 
+  }
+
+  
+
+  .bg { 
+    margin: 0;
+    padding: 0;
+    width:100%;
+   
+
+  }
+
+  .wrapper {
+    position: absolute;
+    bottom:0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  h1 {
+    color: #D16868;
+    text-align: center;
+    font-size:3rem;
+  }
+
+  img {
+    width:100%;
+    height:auto;
+}
+
+.logo {
+ 
+margin:1rem 1rem 0 1rem;
+padding:1.5rem 1.5rem 0 1.5rem;
+width:500px;
+
+border-radius:30px;
+
+}
+
+.hidden {
+    display: none;
+} */
+
+
+/* Tablet Sized Screens */
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    
+
+    .logo{
+        position: absolute;
+        top:-100;
+        width:35%;
+    }
+
+    
+}
+
+/* mobile screen */
+
+@media screen and (max-width:768px) {
+
+    .logo{
+        position: absolute;
+        top:-100;
+        width:50%;
+    }
+    
+   
+}

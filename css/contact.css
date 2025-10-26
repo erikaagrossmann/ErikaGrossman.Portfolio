@@ -1,0 +1,60 @@
+@import url(./global.css);
+
+.title {
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-size: 5.5rem;
+    padding: 10rem;
+
+}
+
+
+
+
+/* Tablet Sized Screens */
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .container{
+        flex-direction: Column;
+        width:60%;
+      
+    }
+
+    .icon{
+        
+        width:100%;
+    }
+
+    .icon .box {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding:2rem;
+        align-items: center;
+    }
+}
+
+/* mobile screen */
+
+@media screen and (max-width:768px) {
+    .container{
+        flex-direction: Column;
+        width:100%;
+        
+    }
+
+    .icon{
+        
+        width:100%;
+    }
+
+    .icon .box {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding:2rem;
+        align-items: center;
+    }
+   
+}

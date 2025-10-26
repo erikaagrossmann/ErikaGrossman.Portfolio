@@ -1,0 +1,37 @@
+
+
+
+nav {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+}
+
+
+
+/* Tablet Sized Screens */
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    /* .nav {
+        margin:1rem;
+        position: absolute;
+    }
+
+    .nav li {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    } */
+}
+
+
+/* mobile screen */
+
+@media screen and (max-width:768px){
+
+    /* .nav {
+        
+        position: absolute;
+    }
+
+    .nav li {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    } */
+}

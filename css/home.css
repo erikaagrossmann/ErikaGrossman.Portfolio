@@ -1,0 +1,57 @@
+
+
+.headline {
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-size: 3.5rem;
+}
+
+
+
+
+/* @import url(./layout.css);
+@import url(./global.css);
+@import url(./nav.css);
+
+.profile {
+    padding:1rem;
+    max-width:800px;
+    position: relative;
+}
+
+.profile img {
+    border-radius: 10px;
+    border-top-left-radius: 330px;
+    border-top-right-radius: 330px;
+    pointer-events: all;
+}
+
+
+.description1 {
+    padding:2rem;
+    color: rgb(192,82,75);
+    font-size: 5rem;
+    text-align: center;
+}
+
+.description2 {
+    padding:2rem;
+    color: #A65252;
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Schibsted Grotesk', 'sans-serif';
+    font-weight: 600;
+} */
+
+
+/* Tablet Sized Screens */
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    
+}
+
+/* mobile screen */
+
+@media screen and (max-width:768px) {
+    
+   
+}
